@@ -1,21 +1,27 @@
 ## Test Plan
 
-## High Level Test Plan
 
-| Test ID |Keys | Description |Expected Output | Actual Output | Pass/fail(Result)
-|--|--|--|--|--|--|
-| TID 1 |1| Adding student Records| SUCCESS  | SUCCESS | PASS
-| TID 2 |2|Searching student Records | SUCCESSS | SUCCESS| PASS 
-| TID 3 |3| Modifying the Records|  SUCCESS  | SUCCESS | PASS
-| TID 4 |4|Generate marksheet | SUCCESSS | SUCCESS| PASS 
-| TID 5 |5| Delete student records| SUCCESS | SUCCESS | PASS
-| TID 6 |6| Changing password| SUCCESS  | SUCCESS | PASS
-| TID 7 |7| Exit| EXIT  | EXIT | PASS
- 
+### High Level Test Plan
 
-## Low Level Test Plan 
 
-| Test ID | Description |Expected Output| Actual Output | Pass/Fail(Result)
-|--|--|--|--|--|
-| TID 1 | User shall be able to fetch perfect student record | SUCCESS | SUCCESS| PASS 
-| TID 2 | System must display data  | SUCCESS | SUCCESS| PASS 
+| TestID | Description                                                                                                                                  | Exp I/P | Exp O/P                       | Actual O/P                    | Type of Test      |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ----------------------------- | ----------------------------- | ----------------- |
+| H_01   | Calculating Total Bill i.e deducting 10% discount from bill and adding 18% to bill and then return the Total amount of bill                  | 175    | 185.85                         | 185.85                         | Requirement Based |
+| H_02   | Generating Invoice with Customer name                                                                                                        | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+| H_03   | When user enter option which is not listed                                                                                                   | ----    | Give message "Invalid option" | Give message "Invalid option" | Scenario Based    |
+| H_04   | When no saved invoices to show                                                                                                               | ----    | Show no invoice message       | Show no invoice message       | Boundary based    |
+| H_05   | Saving the generated invoice in file with cutomer name                                                                                       | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+| H_06   | Handeled Negative values, when user accidently give negative values of item quntity or item price , then app simply return '0' as total bill | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+
+
+
+**Low Level Test Plan**
+
+
+| TestID | Description                                         | Exp I/P       | Exp O/P                  | Actual O/P               | Type of Test      |
+| ------ | --------------------------------------------------- | ------------- | ------------------------ | ------------------------ | ----------------- |
+| L_01   | Calculating Particular Item Bill                    | 10 , 25       | 250                      | 250                      | Requirement Based |
+| L_02   | Calculating Bill with 10% Discount                  | 250           | 225                      | 225                       | Requirement Based |
+| L_03   | Calculating Bill with 18% GST                       | 225           | 265.5                     | 265.5                    | Requirement Based |
+| L_04   | Search Invoice                                      | Customer Name | Customer Invoice         | Customer Invoice          | Requirement Based |
+| L_05   | Search Invoice (Multiple Invoices of same Customer) | Customer Name | All Invoices of Customer | All Invoices of Customer  | Scenario Based    |
