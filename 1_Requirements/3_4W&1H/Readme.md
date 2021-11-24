@@ -1,6 +1,6 @@
 ### 4W AND 1H ###
 
-4W1H is a method of asking questions about a process or a problem taken up for improvement. Four of the W’s (what, where, when, why) and the one H is used to comprehend for details, analyze inferences and judgment to get to the fundamental facts and guide statements to get to the abstraction.
+4W&1H is a method of asking questions about a process or a problem taken up for improvement. Four of the W’s (what, where, when, why) and the one H is used to comprehend for details, analyze inferences and judgment to get to the fundamental facts and guide statements to get to the abstraction.
 
 WHAT – What is all about this?
 
