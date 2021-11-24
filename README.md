@@ -1,2 +1,2 @@
-# M1_Application_EmployeeRecordSystem
- This mentain and keep track of employee details in an organization.
+# M1_Application_RestaurantBillingSystem
+ This generate,display and search invoice for restaurant.
