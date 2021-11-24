@@ -1,7 +1,7 @@
 ## RESTAURANT BILLING SYSTEM  ##
 
 
-Restaurant Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer. You can use this application to keep the records such as name, address, mobile number, paid amount, payment date etc. of your regular customer. Also, if you have a new customer, you can add and edit the account at any time.
+Restaurant Billing System is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer. You can use this application to keep the records such as name, address, mobile number, paid amount, payment date etc. of your regular customer. Also, if you have a new customer, you can add and edit the account at any time.
 
 ### Project Abstract: ###
 
