@@ -1,4 +1,4 @@
-# M1_Application_CustomerBillingSystem #
+# M1_Application_RestaurantBillingSystem #
 
 
 
