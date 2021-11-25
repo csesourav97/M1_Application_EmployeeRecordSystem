@@ -19,10 +19,7 @@ void generate_bill_body(items item){
 	printf("%.2f\t\t", item.qty);
 	printf("%.2f\t\t", (item.qty <=0 || item.price <0) ? 0 : item.qty * item.price);
 	printf("\n");
-    
-    
 }
-
 
 void generate_bill_footer(float total){
 	printf("\n");
