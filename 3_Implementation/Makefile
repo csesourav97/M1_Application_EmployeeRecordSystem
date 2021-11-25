@@ -20,14 +20,11 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc\
 -Iunity\
 
-
-
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
-
 
  ifdef OS
     RM = rm
@@ -62,7 +59,6 @@ doc:
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(TEST_OUTPUT).$(EXEC))
 	./$(call FixPath,$(TEST_OUTPUT).$(EXEC))
-
 
 # Remove all the built files, invoke by `make clean`
 clean:
