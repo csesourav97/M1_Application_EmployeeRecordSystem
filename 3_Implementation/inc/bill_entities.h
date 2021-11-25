@@ -1,9 +1,9 @@
 /**
  * @file bill_entities.h
- * @author Aisha
+ * @author Sourav
  * @brief Bill entities structure definition
  * @version 0.1
- * @date 2021-11-20
+ * @date 2021-11-25
  * 
  * @copyright Copyright (c) 2021
  * 
