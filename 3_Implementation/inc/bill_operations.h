@@ -1,9 +1,9 @@
 /**
  * @file bill_operations.h
- * @author Prince
+ * @author Sourav
  * @brief Header file for function prototypes
  * @version 0.1
- * @date 2021-11-20
+ * @date 2021-11-25
  * 
  * @copyright Copyright (c) 2021
  * 
