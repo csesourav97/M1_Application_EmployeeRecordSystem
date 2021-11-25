@@ -6,7 +6,6 @@ float total_bill(float qty, float price){
     float total=0;
         total = qty * price;
         return total;        
-    
 }
 
 float net_total(float total){
