@@ -3,4 +3,4 @@
 
 https://api.codiga.io/project/30074/score/svg
 
-https://api.codiga.io/project/30074/score/svg
+https://api.codiga.io/project/30074/status/svg
